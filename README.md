@@ -58,15 +58,17 @@ Future enhancement: Build a classifier to dynamically infer Umbrella Concepts fr
 Custom NER with spaCy v3 — Tutorial
 
 ## 📂 Files
-File	Description
-POTaggleIII_Antonio_Del_Trionfo.ipynb	Main summarization notebook
-train_model.ipynb	NER training pipeline
-data/	Annotated training data
-model/	Fine-tuned spaCy model
-output/	Generated .docx summaries
-🚀 Usage
-bash
+| File  | Description |
+| ------------- | ------------- |
+| POTaggleIII_Antonio_Del_Trionfo.ipynb  | Main summarization notebook  |
+| train_model.ipynb  | NER training pipeline |
+| data/  | Annotated training data  |
+| model/  | Fine-tuned spaCy model  |
+| model/  | Generated .docx summaries  |
 
+
+## 🚀 Usage
+```bash
 # Launch notebook
 jupyter notebook POTaggleIII_Antonio_Del_Trionfo.ipynb
-Follow prompts to load a transcript, run the model, and export the summary.
+```
