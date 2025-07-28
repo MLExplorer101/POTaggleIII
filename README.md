@@ -15,6 +15,8 @@ This application processes earnings call transcripts to extract key financial in
     * CURRENCY
 
     * GRANULAR CONCEPT
+   
+    * UMBRELLA CONCEPT (dictionary-based NER approach) 
 
 * Speaker and paragraph extraction
 
@@ -52,7 +54,7 @@ Fine-tuned entities allow high-precision extraction of financial information fro
 ## 🧭 Caveats & Future Work
 Umbrella Concept Mapping is currently static and rule-based.
 
-Future enhancement: Build a classifier to dynamically infer Umbrella Concepts from Granular ones.
+Future enhancement: Build a classifier to dynamically infer Umbrella Concepts from Granular Concepts.
 
 ## 📚 Resources
 Custom NER with spaCy v3 — Tutorial
